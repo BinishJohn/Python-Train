@@ -4,10 +4,10 @@ def func_format():
   print '{2}{1},{0}'.format('Hello' ,'Hai', 'Hi')
   print 'Months : {jan},{feb}'.format( jan = 'January' , feb='February')
   print '{:<30}'.format('Left')
-  print '{:>30}'.format('Right')
+  print '{:#>30}'.format('Right')
   print '{:^30}'.format('Center')
   print '{:$^30}'.format('Filler')
-  print '{:,}'.format(123123123123)
+  print '{:,}'.format(12312312)
   print '100/2 Percentage: {:.2%}'.format(.50)
 
   
