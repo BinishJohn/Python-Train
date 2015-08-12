@@ -19,3 +19,6 @@ def function_5(name, age=26):
 
 def function_6(name,age):
    return name , age
+
+def function_7():
+   function_5("Calling Function 6 from 7", 12)
