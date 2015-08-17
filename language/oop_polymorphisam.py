@@ -7,7 +7,10 @@ class Animal:
      self.name = name
 
   def talk(self):
-     pass
+     print "Taling Animal"
+
+  def show_name(self):
+     print self.name
 
 
 class Cat(Animal):

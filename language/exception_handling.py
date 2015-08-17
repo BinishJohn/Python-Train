@@ -1,4 +1,6 @@
 global x
+global inverse
+inverse = 0
 try:
   x = float(raw_input("Number :"))
   inverse = 1.0 / x 
@@ -7,8 +9,5 @@ except ValueError:
 except ZeroDivisionError:
   print "Divide by zero"
 finally:
-  try:
-    print "Called finally"
-    print "Inverse :" , inverse
-  except:
-    print "Error"
+    print "Finally"
+    print inverse

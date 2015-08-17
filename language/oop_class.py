@@ -25,6 +25,8 @@ class Account(object):
 # Example : sbi_account= Account("SBI",12123,100)
 #           sbi.deposit(200)
 
+  def get_counter(self):
+     print self.counter
   def deposit(self, amount):
      self.Balance = self.Balance + amount
 
